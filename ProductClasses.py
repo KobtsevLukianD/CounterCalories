@@ -82,7 +82,3 @@ class ProductDatabase():
     def clear(self):
         self.products = {}
         self.names = []        
-    
-    def change_parameters(self, old_product, new_product):
-        return
-        # TODO: если в базе необходимо редактировать какой-либо продукт(вплоть до изменеия названия или категории)
